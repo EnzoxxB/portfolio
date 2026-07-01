@@ -109,7 +109,7 @@
 }
 @font-face {
   font-family: "Chanticleer";
-  src: url("./assets/fonts/ChanticleerRomanNF-Bold.ttf") format("truetype");
+  src: url("/assets/fonts/ChanticleerRomanNF-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
