@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Home = () => {
   return (
     <section className="flex flex-col items-center justify-center min-h-screen">
@@ -23,9 +25,14 @@ const Home = () => {
             <p className="text-2xl mb-8 animate-fade-in animate-blue-glow">Fullstack Developer</p>
             <p className="text-lg mb-8 animate-fade-in animate-blue-glow">Construyo aplicaciones web y de escritorio, especializado en React, Spring Boot y SQL.</p>
             <div className="flex space-x-4 animate-fade-in items-center justify-center">
-                <a href="/projects" className="bg-blue-500/20 hover:bg-blue-700/20 animate-blue-glow text-white font-bold py-2 px-4 rounded transition duration-300">Ver Proyectos</a>
+                <Link
+                to="/projects"
+                className="bg-blue-500/20 hover:bg-blue-700/20 animate-blue-glow text-white font-bold py-2 px-4 rounded transition duration-300"
+                >
+                Ver Proyectos
+                </Link>
                 <a 
-                href="/cv/Enzo_Balderrama_CV.pdf"
+                href="/cv/CB_Enzo_B.pdf"
                 download 
                 className="bg-green-500/20 hover:bg-green-700/20 animate-green-glow text-white font-bold py-2 px-4 rounded transition duration-300">Descargar CV</a>
             </div>
