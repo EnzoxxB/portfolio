@@ -23,29 +23,21 @@ export default function ProjectWoWelbe() {
 
     return (
 
-<section
-className="w-full rounded-3xl
-bg-[#0b1725cc]
-backdrop-blur-lg
-border border-cyan-400/20
-shadow-2xl
-p-10">
+<section className="w-full rounded-3xl bg-[#0b1725cc] backdrop-blur-lg border border-cyan-400/20 shadow-2xl p-6 sm:p-10">
 
-<div className="grid lg:grid-cols-2 gap-10 items-center">
+<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-center">
 
 {/* Carrusel */}
 
 <div>
 
 <Swiper
-modules={[Navigation, Pagination, Autoplay]}
-navigation
-pagination={{ clickable: true }}
-autoplay={{
-delay: 3500
-}}
-loop
-className="rounded-2xl overflow-hidden shadow-xl"
+  modules={[Navigation, Pagination, Autoplay]}
+  navigation
+  pagination={{ clickable: true }}
+  autoplay={{ delay: 3500 }}
+  loop
+  className="rounded-2xl overflow-hidden shadow-xl"
 >
 
 {images.map((image,index)=>(
@@ -53,8 +45,8 @@ className="rounded-2xl overflow-hidden shadow-xl"
 <SwiperSlide key={index}>
 
 <img
-src={image}
-className="w-full h-[450px] object-cover"
+  src={image}
+  className="w-full h-[220px] sm:h-[300px] lg:h-[450px] object-cover"
 />
 
 </SwiperSlide>
@@ -69,11 +61,11 @@ className="w-full h-[450px] object-cover"
 
 <div className="space-y-6">
 
-<h2 className="text-5xl font-bold text-cyan-300">
+<h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-cyan-300">
 WoWelbe
 </h2>
 
-<p className="text-gray-300 leading-8 text-lg">
+<p className="text-gray-300 leading-7 text-base sm:text-lg">
 
 Portal web desarrollado para un servidor privado de
 World of Warcraft Wrath of the Lich King.
