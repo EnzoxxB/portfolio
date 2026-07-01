@@ -32,7 +32,7 @@ const Home = () => {
                 Ver Proyectos
                 </Link>
                 <a 
-                href="/cv/CB_Enzo_B.pdf"
+                href="/cv/CV_Enzo_B.pdf"
                 download 
                 className="bg-green-500/20 hover:bg-green-700/20 animate-green-glow text-white font-bold py-2 px-4 rounded transition duration-300">Descargar CV</a>
             </div>
