@@ -1,3 +1,4 @@
+import ProjectTechBe from "../components/ProjectTechBeStore";
 import ProjectWoWelbe from "../components/ProjectWoWelbe";
 
 const Projects = () => {
@@ -28,6 +29,7 @@ const Projects = () => {
             duration-300
             ">
             <ProjectWoWelbe/>
+            <ProjectTechBe/>
         </div>
     </section>
   )
