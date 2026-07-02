@@ -75,7 +75,7 @@ export default function ProjectWoWelbe() {
 
           </p>
 
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 justify-center items-center">
 
             {
               [
@@ -134,7 +134,7 @@ export default function ProjectWoWelbe() {
 
           </div>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 justify-center items-center flex-wrap">
 
             <a
               href="https://wowelbe.netlify.app"

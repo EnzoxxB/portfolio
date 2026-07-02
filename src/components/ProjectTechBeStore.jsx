@@ -93,7 +93,7 @@ export default function ProjectTechBe() {
 
                     {/* Tecnologías */}
 
-                    <div className="flex flex-wrap gap-3">
+                    <div className="flex flex-wrap gap-3 items-center justify-center">
 
                         {[
                             "ElectronJS",
@@ -166,33 +166,9 @@ export default function ProjectTechBe() {
 
                     </div>
 
-                    {/* Arquitectura */}
-
-                    <div>
-
-                        <h3 className="text-2xl font-semibold mb-4">
-                            Arquitectura
-                        </h3>
-
-                        <ul className="space-y-2 text-gray-300">
-
-                            <li>🖥️ ElectronJS como entorno de escritorio multiplataforma.</li>
-
-                            <li>⚛️ React + Vite para una interfaz rápida y moderna.</li>
-
-                            <li>🔒 Comunicación segura entre procesos mediante Preload API e IPC.</li>
-
-                            <li>🗄️ Persistencia local utilizando SQLite.</li>
-
-                            <li>📦 Arquitectura modular preparada para incorporar nuevos módulos.</li>
-
-                        </ul>
-
-                    </div>
-
                     {/* Botones */}
 
-                    <div className="flex flex-wrap gap-4">
+                    <div className="flex flex-wrap gap-4 justify-center items-center">
 
                         <a
                             href="https://drive.google.com/file/d/1yEqYUtSQCKmnY4MgkfAl5unY4GlVwjOq/view?usp=sharing"
