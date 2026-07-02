@@ -19,7 +19,8 @@ const Projects = () => {
             mx-auto
             p-8
             space-y-6
-            bg-[#0b1725aa]
+            bg-[#000914a4]
+            backdrop-blur-xs
             rounded-2xl
             shadow-2xl
             border

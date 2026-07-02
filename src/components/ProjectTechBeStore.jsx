@@ -21,7 +21,7 @@ const images = [
 export default function ProjectTechBe() {
     return (
 
-        <section className="w-full rounded-3xl bg-[#0b1725cc] backdrop-blur-lg border border-cyan-400/20 shadow-2xl p-6 sm:p-10">
+        <section className="w-full rounded-3xl bg-[#0b172599] border border-cyan-400/20 shadow-2xl p-6 sm:p-10">
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-center">
 
