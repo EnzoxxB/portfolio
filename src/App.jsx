@@ -2,8 +2,10 @@ import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import './styles/index.css';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import LanguageSwitcher from "./components/LanguageSwitcher";
 
 function App() {
+
   return (
     <div className="min-h-screen flex flex-col relative overflow-hidden">
 
@@ -17,17 +19,19 @@ function App() {
         <source src="./images/Fondo.mp4" type="video/mp4" />
       </video>
 
-      {/* capa oscura encima del video */}
+      {/* Capa oscura */}
       <div className="absolute inset-0 bg-black/50"></div>
 
-      {/* contenido */}
+      {/* Contenido */}
       <div className="relative z-10 min-h-screen flex flex-col">
 
+        <LanguageSwitcher />
+        
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="*" element={<Navigate to="/" />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </main>
 
@@ -38,7 +42,7 @@ function App() {
       </div>
 
     </div>
-  )
+  );
 }
 
 export default App

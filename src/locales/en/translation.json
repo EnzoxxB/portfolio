@@ -1,0 +1,49 @@
+{
+  "home": {
+    "title": "Enzo Balderrama",
+    "role": "Full Stack Developer",
+    "description": "I build web and desktop applications specialized in React, Spring Boot and SQL.",
+    "projects": "View Projects",
+    "cv": "Download Resume"
+  },
+  "projects": {
+    "back":"Back"
+  },
+  "projectWoWelbe": {
+    "title": "WoWelbe",
+    "description": "Web portal developed for a custom World of Warcraft Wrath of the Lich King server. It integrates server-compatible authentication, an online store, character management and payment processing using React and Spring Boot.",
+    "featuresTitle": "Features",
+    "demo": "View Demo",
+    "features": [
+      "SRP6 authentication compatible with World of Warcraft.",
+      "Character management connected directly to the game server.",
+      "Integrated Premium Shop.",
+      "Purchase of items, mounts, pets and services.",
+      "Mercado Pago payment integration.",
+      "Automatic crediting through Webhooks.",
+      "Special Points (PE) and Donation Points (PD) system.",
+      "REST backend built with Spring Boot."
+    ]
+  },
+  "projectTechBeStore": {
+    "title": "TechBeStore",
+    "description": "TechBeStore is a desktop application built with ElectronJS, React and Vite to provide a modern business management solution for small and medium-sized companies.\n\nUnlike a traditional application, it was designed as a reusable and fully customizable platform. Each deployment can be adapted to the client's branding by changing the name, logo, colors and business-specific settings without modifying the core architecture.\n\nPowered by SQLite, all information is stored locally, providing a fast, secure and fully offline experience.",
+    "adaptableTitle": "Customizable Platform",
+    "adaptableDescription": "TechBeStore was designed as a reusable software product. Each customer can receive a personalized version with its own branding and business-specific features while preserving the same core architecture.",
+    "featuresTitle": "Features",
+    "download": "Download Evaluation Version",
+    "license": "Request License",
+    "note": "The evaluation version requires a temporary license. To try the application, request a trial license by emailing",
+    "features": [
+      "Fully customizable for each business.",
+      "Custom branding, logo and visual identity.",
+      "Product, category and inventory management.",
+      "Complete sales workflow with customer management.",
+      "Quotation and commercial document generation.",
+      "Sales history and advanced search.",
+      "Bulk product import and updates.",
+      "Built-in software licensing system.",
+      "100% offline operation powered by SQLite."
+    ]
+  }
+}

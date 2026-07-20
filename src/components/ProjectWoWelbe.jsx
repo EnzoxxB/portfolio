@@ -5,6 +5,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+import { useTranslation } from "react-i18next";
+
 const images = [
   "/images/projects/wowelbe/login.png",
   "/images/projects/wowelbe/home.png",
@@ -20,6 +22,8 @@ const images = [
 ];
 
 export default function ProjectWoWelbe() {
+
+  const { t } = useTranslation();
 
   return (
 
@@ -62,17 +66,11 @@ export default function ProjectWoWelbe() {
         <div className="space-y-6">
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-cyan-300">
-            WoWelbe
+            {t("projectWoWelbe.title")}
           </h2>
 
           <p className="text-gray-300 leading-7 text-base sm:text-lg">
-
-            Portal web desarrollado para un servidor privado de
-            World of Warcraft Wrath of the Lich King.
-
-            Integra autenticación compatible con el servidor,
-            sistema de tienda, personajes y pagos online utilizando React + Spring Boot.
-
+            {t("projectWoWelbe.description")}
           </p>
 
           <div className="flex flex-wrap gap-3 justify-center items-center">
@@ -109,27 +107,13 @@ export default function ProjectWoWelbe() {
           <div>
 
             <h3 className="text-2xl font-semibold mb-4">
-              Características
+              {t("projectWoWelbe.featuresTitle")}
             </h3>
 
             <ul className="space-y-2 text-gray-300">
-
-              <li>✔ Autenticación compatible con World of Warcraft mediante encriptación SRP6.</li>
-
-              <li>✔ Sistema de personajes conectado directamente al servidor.</li>
-
-              <li>✔ Tienda Premium integrada.</li>
-
-              <li>✔ Compra de objetos, monturas, mascotas y servicios.</li>
-
-              <li>✔ Integración con Mercado Pago.</li>
-
-              <li>✔ Acreditación automática mediante Webhooks.</li>
-
-              <li>✔ Sistema Special Points [PE] y Donation Points [PD].</li>
-
-              <li>✔ Backend REST con Spring Boot.</li>
-
+              {t("projectWoWelbe.features", { returnObjects: true }).map((feature, index) => (
+                <li key={index}>✔ {feature}</li>
+              ))}
             </ul>
 
           </div>
@@ -139,12 +123,13 @@ export default function ProjectWoWelbe() {
             <a
               href="https://wowelbe.netlify.app"
               target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 rounded-xl
               bg-green-500/20
               hover:bg-green-500/40
               transition">
 
-              Ver Sitio de prueba
+              {t("projectWoWelbe.demo")}
 
             </a>
 

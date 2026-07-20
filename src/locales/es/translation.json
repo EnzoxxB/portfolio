@@ -1,0 +1,50 @@
+{
+  "home": {
+    "title": "Enzo Balderrama",
+    "role": "Desarrollador Full Stack",
+    "description": "Construyo aplicaciones web y de escritorio, especializado en React, Spring Boot y SQL.",
+    "projects": "Ver Proyectos",
+    "cv": "Descargar CV"
+  },
+  "projects": {
+    "back":"Volver",
+    "":""
+  },
+  "projectWoWelbe": {
+    "title": "WoWelbe",
+    "description": "Portal web desarrollado para un servidor privado de World of Warcraft Wrath of the Lich King. Integra autenticación compatible con el servidor, sistema de tienda, personajes y pagos online utilizando React + Spring Boot.",
+    "featuresTitle": "Características",
+    "demo": "Ver sitio de prueba",
+    "features": [
+      "Autenticación compatible con World of Warcraft mediante encriptación SRP6.",
+      "Sistema de personajes conectado directamente al servidor.",
+      "Tienda Premium integrada.",
+      "Compra de objetos, monturas, mascotas y servicios.",
+      "Integración con Mercado Pago.",
+      "Acreditación automática mediante Webhooks.",
+      "Sistema Special Points (PE) y Donation Points (PD).",
+      "Backend REST desarrollado con Spring Boot."
+    ]
+  },
+  "projectTechBeStore": {
+    "title": "TechBeStore",
+    "description": "TechBeStore es una plataforma de escritorio desarrollada con ElectronJS, React y Vite, creada para brindar una solución moderna de gestión comercial para pequeños y medianos negocios. A diferencia de una aplicación tradicional, fue diseñada como una plataforma reutilizable y completamente personalizable. Cada implementación puede adaptarse a la identidad del cliente, permitiendo modificar nombre, logotipo, colores y configuraciones específicas del comercio sin alterar la arquitectura principal del sistema. Gracias a SQLite, toda la información permanece almacenada localmente, ofreciendo una experiencia rápida, segura y completamente funcional incluso sin conexión a Internet.",
+    "adaptableTitle": "Plataforma adaptable",
+    "adaptableDescription": "TechBeStore fue concebido como un producto reutilizable. Cada cliente puede contar con una versión personalizada del sistema, incorporando su propia identidad visual y ajustando funcionalidades según las necesidades particulares del negocio.",
+    "featuresTitle": "Características",
+    "download": "Descargar versión de evaluación",
+    "license": "Solicitar licencia",
+    "note": "La versión de evaluación requiere una licencia temporal. Si deseas probar la aplicación, puedes solicitar una licencia de prueba escribiendo a",
+    "features": [
+      "Plataforma completamente personalizable para cada comercio.",
+      "Personalización de nombre, logotipo e identidad visual.",
+      "Gestión de productos, categorías y control de stock.",
+      "Sistema completo de ventas con administración de clientes.",
+      "Generación de presupuestos y documentos comerciales.",
+      "Historial de ventas y búsquedas avanzadas.",
+      "Importación masiva y actualización de productos.",
+      "Sistema de licencias para habilitación del software.",
+      "Funcionamiento 100% offline mediante SQLite."
+    ]
+  }
+}
